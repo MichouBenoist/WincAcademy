@@ -1,17 +1,31 @@
 #mijnnaam {
-    color: red;
+    color: rgb(247, 243, 243);
     font-size: 60pt;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: black 0.2em 0.1em 0.3em;
+}
+
+footer p a {
+    color: purple;
+}
+
+.uitzondering a {
+    color: blue;
+    text-decoration: none;
 }
 
 .cool-border {
-    margin-left: 8.5em;
     border: 5px dashed white;
     width: 400px;
     padding: 10px;
     text-align: center;
     background-color: cornsilk;
+}
+
+ol.center {
+    text-align: center;
+    list-style-position: inside;
 }
 
 body {
