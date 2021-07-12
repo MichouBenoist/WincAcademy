@@ -1,0 +1,120 @@
+/* hoe weet je of je elementen in de goede volgorde staan? */
+
+* {
+    text-align: center;
+}
+
+h1 {
+    color: #212121;
+    background-color: #fdb81e;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+/* Kan ook korter, bijvoorbeeld font:normal 16px arial, helvetica, sans serif; */
+
+/*
+nav
+header
+article
+aside
+footer
+*/
+
+nav {
+    background-color: purple;
+}
+
+header {
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+}
+
+article header {
+    background-color: blue;
+}
+
+article {
+    background-color: green;
+}
+
+aside {
+    background-color: yellow;
+}
+
+footer {
+    background-color: aquamarine;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding: 50px 30px 50px 30px;
+    */
+}
+
+body {
+    color: #212121;
+    background-color: #e7f4f4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+h2 {
+    color: #212121;
+    background-color: #ffffff;
+}
+
+h3 {
+    color: #212121;
+    background-color: #d6d7d9;
+}
+
+footer {
+    text-align: center;
+}
+
+.hoofdnavigatie li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 3px;
+    display: inline;
+    background-color: #fdb81e;
+}
+
+.hoofdnavigatie a {
+    text-decoration: none;
+}
+
+.box-1 {
+    color: #ffffff;
+    background-color: #5b616b;
+    border-right: 30px black solid;
+    border-left: 20px black solid;
+    border-top: 20px orange solid;
+    border-bottom: 10px orange solid;
+    padding: 10px;
+    margin-top: 20px 0;
+}
+
+.box-1 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.box-2 {
+    color: #212121;
+    background-color: #e4e2e0;
+    border: 12px dotted #fff;
+    margin: 0 auto;
+    width: 50%;
+}
