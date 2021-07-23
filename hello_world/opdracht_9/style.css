@@ -1,0 +1,227 @@
+* {
+    font-family: 'Quicksand', sans-serif, apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+figure {
+    margin: 0
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+    text-align: center;
+}
+
+.hoofdnavigatie ul {
+    padding: 0;
+    margin-top: 0;
+}
+
+.hoofdnavigatie li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.hoofdnavigatie a {
+    text-decoration: none;
+    font-size: 1.3em;
+    align-content: center;
+    /* Meer ruimte ertussen, knoppen, liefst interactie maar komt straks met javascript.*/
+}
+
+quote {
+    display: block;
+    margin: 2em .8em;
+    font-size: 14pt;
+    font-style: italic;
+}
+
+.container {
+    margin: .5em;
+    align-content: center;
+    font-weight: 120;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #851c7c;
+    font-style: italic;
+}
+
+article {
+    background-color: rgb(224, 228, 227);
+    border-radius: 1em;
+    padding: .5em 1em;
+    margin-bottom: 2em;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.portretmobiel {
+    float: right;
+    padding: 0 0 3px 3px;
+    margin-left: .8em;
+    width: 30%;
+    display: block;
+}
+
+.portret {
+    float: right;
+    padding: 0 0 3px 3px;
+    margin: 3em;
+    width: 70%;
+    display: none;
+}
+
+.fotokolombreed {
+    width: 100%;
+    border-radius: 7px;
+}
+
+h1 {
+    color: #343652;
+    font-size: 18pt;
+    text-align: left;
+    font-weight: 600;
+}
+
+h2 {
+    color: #212121;
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+h3 {
+    color: #5c1456;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+iframe {
+    margin: .5em 0em;
+}
+
+form ul {
+    list-style-type: none;
+}
+
+footer {
+    width: 100%;
+    font-size: 12pt;
+    color: white;
+    background-color: rgb(150, 114, 114);
+    text-align: center;
+    font-weight: 600;
+}
+
+/*
+media queries 
+mobile first
+
+// Smartphones (portrait)
+minimale breedte : 320px;
+
+// Tablets (portrait)
+minimale breedte : 768px
+
+// Desktop 
+minimale breedte : 1024px
+*/
+
+@media (min-width: 768px) {
+    .logo img {
+        width: 40%;
+    }
+    .hoofdnavigatie a {
+        font-size: 12pt;
+        text-align: right;
+    }
+    .hoofdnavigatie li {
+        display: inline;
+    }
+    nav {
+        text-align: right;
+    }
+    h1 {
+        font-size: 14pt;
+        text-align: left;
+    }
+    h2 {
+        font-size: 12pt;
+        font-weight: 500;
+    }
+    h3 {
+        font-size: 10pt;
+        font-weight: 480;
+    }
+    .container {
+        font: 8pt;
+    }
+    .fotokolombreed {
+        float: right;
+        float: right;
+        width: 40%;
+        margin: 0 2em;
+    }
+    quote {
+        margin: .5em .2em;
+        font-size: 14pt;
+        font-style: italic;
+    }
+    .portret {
+        margin-top: .5em;
+        padding: 0 0 3px 3px;
+        width: 200px;
+        display: block;
+    }
+    .portretmobiel {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .logo img {
+        width: 30%;
+        float: left;
+    }
+    nav {
+        text-align: center;
+        font-size: 16pt;
+    }
+    h1 {
+        font-size: 18pt;
+        text-align: left;
+    }
+    h2 {
+        font-size: 16pt;
+        font-weight: 500;
+    }
+    h3 {
+        font-size: 12pt;
+        font-weight: 480;
+    }
+    .container {
+        margin: 0 18em;
+        align-content: center;
+        font-weight: 120;
+        text-align: justify;
+    }
+    quote {
+        display: block;
+        margin: 1.2em .8em;
+        font-size: 14pt;
+        font-style: italic;
+    }
+    .portret {
+        padding: 0 0 3px 3px;
+        width: 200px;
+    }
+}
