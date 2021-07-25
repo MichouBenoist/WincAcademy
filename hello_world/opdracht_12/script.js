@@ -11,13 +11,13 @@ if (age == 18) {
     console.log("Gefeliciteerd, je bent net 18. Je mag drinken.");
 }
 
-
+// of: else {console.log("gefeliciteerd...")}
 
 
 const isFemale = false;
 
 if (isFemale) {
-    console.log("Welkom dame, het is ladiesnight en je mag gratis naat binnen.");
+    console.log("Welkom dame, het is ladiesnight en je mag gratis naar binnen.");
 }
 else {
     console.log("Goedenavond meneer, welkom. Dat is dan tien euro entree.");
