@@ -82,6 +82,6 @@ const catBreeds =
 
 console.log('Naam kattensoort 3:', catBreeds[catBreeds.length - 1]['name']);
 console.log('Energylevel', catBreeds[0]['name'], ':', catBreeds[0].energy_level);
-console.log('Eerste temperament kat 2:', catBreeds[1].temperament["0"]);
-console.log('Laatste temperament kat 3:', catBreeds[2].temperament["4"]);
+console.log('Eerste temperament kat 2:', catBreeds[1].temperament[0]);
+console.log('Laatste temperament kat 3:', catBreeds[2].temperament[catBreeds[2].temperament.length - 1]);
 console.log('Favo voedsel van kat 3:', catBreeds[2].food.favourite_food);
