@@ -6,6 +6,7 @@ greet('Michou');
 makeSushi();
 makeSushi();
 makeSushi();
+//geleerd dat dit werkt als hoisting :-)
 
 function makePizza() {
     console.log('Maak de bodem');
