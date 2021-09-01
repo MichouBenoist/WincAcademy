@@ -1,0 +1,79 @@
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10;
+    width: 300px;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2.5px solid black;
+}
+
+li {
+    border-bottom: 2.5px solid rgb(0, 0, 0);
+}
+
+.Rood {
+    background-color: red;
+    color: black;
+}
+
+.Oranje {
+    background-color: orange;
+    color: black;
+}
+
+.Geel {
+    background-color: yellow;
+    color: black;
+}
+
+.Groen {
+    background-color: green;
+    color: black;
+}
+
+.Blauw {
+    background-color: blue;
+    color: black;
+}
+
+.Indigo {
+    background-color: indigo;
+    color: white;
+}
+
+.Violet {
+    background-color: violet;
+    color: black;
+}
+
+#redBlock #makeRed {
+    background-color: red;
+}
+
+#orangeBlock #makeOrange {
+    background-color: orange;
+}
+
+#yellowBlock #makeYellow {
+    background-color: yellow;
+}
+
+#greenBlock #makeGreen {
+    background-color: green;
+}
+
+#blueBlock #makeBlue {
+    background-color: blue;
+}
+
+#indigoBlock #makeIndigo {
+    background-color: indigo;
+}
+
+#violetBlock #makeViolet {
+    background-color: violet;
+}
